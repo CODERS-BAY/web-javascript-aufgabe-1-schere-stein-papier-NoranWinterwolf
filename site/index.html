@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" description="noindex, nofollow">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="game">
+            <div class="h1"><h1>Schere, Stein, Papier.</h1></div>
+            <div><p>Runde: <span id="round"></span></p></div>
+            <div id="choices"></div>
+            <div><p id="points">Zum starten, wähle ein Objekt.</p></div>
+            <div id="player">
+                <button type="button" onclick="game(2)">Schere</button>
+                <button type="button" onclick="game(1)">Stein</button>
+                <button type="button" onclick="game(3)">Papier</button>
+            </div>
+        </div>
+        <script src="game/script.js"></script>
+    </body>
+</html>
